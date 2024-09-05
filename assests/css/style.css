@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.img-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img-3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.img-4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+svg {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.heading {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #737B9A;
+    margin-bottom: 10px;
+}
+
+.head {
+    font-family: "Yellowtail", cursive;
+    font-size: 77.54px;
+    font-weight: 400;
+    line-height: 105.67px;
+    text-align: center;
+    color:#252930;
+}
+
+.para {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #737B9A;
+    margin-top: 10px;
+}
+
+.btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #ffffff;
+    border-radius: 74px;
+    padding: 8px 15px;
+    background: #4D73F8;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.card {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+@media (max-width:576px) {
+    .img-1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-3 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-4 {
+        width: 150px;
+        height: 150px;
+    }
+         .head {
+             font-size: 47px;
+         }
+}
